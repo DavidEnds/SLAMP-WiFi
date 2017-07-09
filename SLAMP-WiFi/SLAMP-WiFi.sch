@@ -1684,4 +1684,9 @@ F 3 "" H 9600 5900 50  0001 C CNN
 	1    9600 5700
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	6750 4900 6750 4350
+Connection ~ 6750 4900
+Text GLabel 6750 4350 1    60   Input ~ 0
+GPIO0
 $EndSCHEMATC
