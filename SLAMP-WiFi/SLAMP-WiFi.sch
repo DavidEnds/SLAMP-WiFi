@@ -28,110 +28,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ESP32
-LIBS:74xgxx
-LIBS:5050_ws2811
-LIBS:a4988-module
-LIBS:ac-dc
-LIBS:acs712
-LIBS:actel
 LIBS:adafruit
-LIBS:adxl345
-LIBS:allegro
-LIBS:Altera
-LIBS:AMS1117
-LIBS:analog_devices
-LIBS:ant
-LIBS:at24c64
-LIBS:battery_management
-LIBS:bbd
-LIBS:bc56-12EWA
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cp2103
-LIBS:CP2102
-LIBS:dc-dc
-LIBS:dht11
-LIBS:diode
-LIBS:elec-unifil
-LIBS:er-oled-ssd1306
-LIBS:ESD_Protection
-LIBS:esp8266ex
-LIBS:esp8266-module
-LIBS:fe
-LIBS:frizzy_ICs
-LIBS:ft232rq
-LIBS:ftdi
-LIBS:Gajda_opto
 LIBS:GeekAmmo
-LIBS:gennum
-LIBS:graphic
-LIBS:GS6300
-LIBS:gy-a4988_module
-LIBS:hc11
-LIBS:hc541
-LIBS:hc-05
-LIBS:HC164
-LIBS:hlk-rm04
-LIBS:ir
-LIBS:irf7907
-LIBS:isp_6p
-LIBS:l298n
-LIBS:L9110
-LIBS:LargeKickstarter
-LIBS:Lattice
 LIBS:LilyPad-Wearables
-LIBS:LM2575
-LIBS:logo
-LIBS:logo-azura-wrench
-LIBS:lt1129cst
-LIBS:M25P05
-LIBS:max
-LIBS:max1538
-LIBS:maxim
-LIBS:mcp1640
-LIBS:mcp1640b
-LIBS:mcp73831
-LIBS:MCP3208
-LIBS:mechanical
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:miniusb
-LIBS:motor_drivers
-LIBS:motors
-LIBS:mp2109dq
-LIBS:MP2307DN
-LIBS:mpu9250
-LIBS:msp430
-LIBS:na10-psu
-LIBS:nordicsemi
-LIBS:nrf24l01
-LIBS:nxp_armmcu
-LIBS:OF5032
-LIBS:onsemi
-LIBS:Oscillators
-LIBS:pl2303
-LIBS:pogopin
-LIBS:powerint
-LIBS:powerjack
-LIBS:Power_Management
-LIBS:pspice
-LIBS:pt4115
-LIBS:references
-LIBS:relays
-LIBS:rfcom
-LIBS:RJ45-ENCODER
-LIBS:rtl8196
-LIBS:rv3029c2
-LIBS:sensors
-LIBS:silabs
-LIBS:smd oscillator
-LIBS:songle_relay
 LIBS:SparkFun-Aesthetics
 LIBS:SparkFun-AnalogIC
 LIBS:SparkFun-Boards
@@ -149,46 +48,8 @@ LIBS:SparkFun-Resistors
 LIBS:SparkFun-Retired
 LIBS:SparkFun-RF
 LIBS:SparkFun-Sensors
-LIBS:spiflash_16m
-LIBS:st1s10
-LIBS:stc12c5a60s2
-LIBS:stepper_drivers
-LIBS:stm8
-LIBS:stm32
-LIBS:STM32F100RBT6B
-LIBS:stpdn
-LIBS:supertex
-LIBS:switches
-LIBS:tcs3200d
-LIBS:tda5144
 LIBS:Teensy_3_and_LC_Series_Boards_v1.1
-LIBS:test
-LIBS:texas-msp
-LIBS:tlv70233
-LIBS:tp4056
-LIBS:transf
-LIBS:ts812c
-LIBS:ttl_ieee
-LIBS:usb_a
-LIBS:usb-a-pcb
-LIBS:usb_ax2
 LIBS:User-Submitted
-LIBS:video
-LIBS:w25q32bv
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:xc3s100etq144
-LIBS:xc3s500evq100
-LIBS:xc6slx9-tqg144
-LIBS:XC9572-TQ100
-LIBS:Xicor
-LIBS:xilinx_spartan3_virtex4_and_5
-LIBS:zetex
-LIBS:Zilog
-LIBS:рэс-49
-LIBS:тпг-1
-LIBS:ESP8266
-LIBS:CH340G_D-SUN-V3.0-cache
 LIBS:SLAMP-WiFi-cache
 EELAYER 25 0
 EELAYER END
@@ -497,17 +358,11 @@ DTR
 Text GLabel 10100 2250 2    39   Input ~ 0
 RTS
 Wire Wire Line
-	9050 1400 9050 1300
-Wire Wire Line
-	9050 1300 9300 1300
-Wire Wire Line
 	9350 2250 9550 2250
 Wire Wire Line
 	9050 2450 9050 2550
 Wire Wire Line
 	9050 2550 9300 2550
-Text GLabel 9300 1300 2    39   Input ~ 0
-RTS
 Text GLabel 9300 2550 2    39   Input ~ 0
 GPIO0
 Connection ~ 9950 1600
@@ -533,7 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 4800 4650 4800
 Text GLabel 4650 4500 0    39   Input ~ 0
-RST
+uRST
 Text GLabel 4650 4600 0    39   Input ~ 0
 ADC
 Text GLabel 4650 4700 0    39   Input ~ 0
@@ -661,7 +516,7 @@ FACE4
 Text GLabel 5100 1900 2    39   Input ~ 0
 EN
 Text GLabel 5350 2000 1    39   Input ~ 0
-RST
+uRST
 $Comp
 L GND #PWR07
 U 1 1 594AAD64
@@ -998,7 +853,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 4950 10050 4950
 Text GLabel 10050 4950 2    39   Input ~ 0
-RST
+uRST
 $Comp
 L GND #PWR018
 U 1 1 594B3E39
@@ -1689,4 +1544,10 @@ Wire Wire Line
 Connection ~ 6750 4900
 Text GLabel 6750 4350 1    60   Input ~ 0
 GPIO0
+Wire Wire Line
+	9300 1300 9050 1300
+Wire Wire Line
+	9050 1300 9050 1400
+Text GLabel 9300 1300 2    60   Input ~ 0
+uRST
 $EndSCHEMATC
