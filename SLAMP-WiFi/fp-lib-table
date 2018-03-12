@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name mod)(type KiCad)(uri /home/david/Escritorio/esp8266-smartwatch-master/board/v1/mod)(options "")(descr ""))
-  (lib (name logos_frizzy)(type KiCad)(uri /home/david/Escritorio/Electronics/kicad_componentes/logos_frizzy)(options "")(descr ""))
+  (lib (name logos_frizzy)(type KiCad)(uri /home/david/Escritorio/Electronics/kicad_componentes/logos_frizzy.pretty)(options "")(descr ""))
 )
