@@ -1,6 +1,249 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
 LIBS:SLAMP-WiFi-cache
-EELAYER 29 0
+LIBS:74xgxx
+LIBS:74xx
+LIBS:5050_ws2811
+LIBS:a4988-module
+LIBS:ac-dc
+LIBS:acs712
+LIBS:actel
+LIBS:adafruit
+LIBS:adc-dac
+LIBS:adxl345
+LIBS:allegro
+LIBS:Altera
+LIBS:AMS1117
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:ant
+LIBS:at24c64
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:Battery_Management
+LIBS:bbd
+LIBS:bc56-12EWA
+LIBS:bosch
+LIBS:Bosch
+LIBS:brooktre
+LIBS:CH340G_D-SUN-V3.0-cache
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:Connector
+LIBS:contrib
+LIBS:cp2103
+LIBS:CP2102
+LIBS:cypress
+LIBS:dc-dc
+LIBS:Decawave
+LIBS:device
+LIBS:dht11
+LIBS:digital-audio
+LIBS:diode
+LIBS:Diode
+LIBS:display
+LIBS:Display
+LIBS:driver_gate
+LIBS:dsp
+LIBS:DSP_Microchip_DSPIC33
+LIBS:elec-unifil
+LIBS:er-oled-ssd1306
+LIBS:ESD_Protection
+LIBS:esp8266ex
+LIBS:esp8266-module
+LIBS:ESP8266
+LIBS:Espressif
+LIBS:fe
+LIBS:FPGA_Actel
+LIBS:frizzy_ICs
+LIBS:ft232rq
+LIBS:ftdi
+LIBS:Gajda_opto
+LIBS:GeekAmmo
+LIBS:gennum
+LIBS:graphic
+LIBS:Graphic
+LIBS:GS6300
+LIBS:gy-a4988_module
+LIBS:hc11
+LIBS:hc541
+LIBS:hc-05
+LIBS:HC164
+LIBS:hlk-rm04
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:irf7907
+LIBS:isp_6p
+LIBS:l298n
+LIBS:L9110
+LIBS:LargeKickstarter
+LIBS:Lattice
+LIBS:LED
+LIBS:LEM
+LIBS:LilyPad-Wearables
+LIBS:linear
+LIBS:LM2575
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
+LIBS:logo
+LIBS:logo-azura-wrench
+LIBS:lt1129cst
+LIBS:M25P05
+LIBS:max
+LIBS:max1538
+LIBS:maxim
+LIBS:mcp1640
+LIBS:mcp1640b
+LIBS:mcp73831
+LIBS:MCP3208
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:mechanical
+LIBS:Mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:miniusb
+LIBS:modules
+LIBS:Motor
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:mp2109dq
+LIBS:MP2307DN
+LIBS:mpu9250
+LIBS:msp430
+LIBS:na10-psu
+LIBS:nordicsemi
+LIBS:nrf24l01
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:OF5032
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:pl2303
+LIBS:pogopin
+LIBS:power
+LIBS:powerint
+LIBS:powerjack
+LIBS:Power_Management
+LIBS:pspice
+LIBS:pt4115
+LIBS:references
+LIBS:regul
+LIBS:Relay
+LIBS:relays
+LIBS:RF_Bluetooth
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:RJ45-ENCODER
+LIBS:rtl8196
+LIBS:rv3029c2
+LIBS:Sensor_Current
+LIBS:Sensor_Humidity
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:smd oscillator
+LIBS:songle_relay
+LIBS:SparkFun-Aesthetics
+LIBS:SparkFun-AnalogIC
+LIBS:SparkFun-Boards
+LIBS:SparkFun-Capacitors
+LIBS:SparkFun-Connectors
+LIBS:SparkFun-DigitalIC
+LIBS:SparkFun-DiscreteSemi
+LIBS:SparkFun-Displays
+LIBS:SparkFun-Electromechanical
+LIBS:SparkFun-FreqCtrl
+LIBS:SparkFun-LED
+LIBS:SparkFun-Passives
+LIBS:SparkFun-PowerIC
+LIBS:SparkFun-Resistors
+LIBS:SparkFun-Retired
+LIBS:SparkFun-RF
+LIBS:SparkFun-Sensors
+LIBS:spiflash_16m
+LIBS:st1s10
+LIBS:stc12c5a60s2
+LIBS:stepper_drivers
+LIBS:stm8
+LIBS:stm32
+LIBS:STM32F100RBT6B
+LIBS:stpdn
+LIBS:supertex
+LIBS:Switch
+LIBS:switches
+LIBS:tcs3200d
+LIBS:tda5144
+LIBS:Teensy_3_and_LC_Series_Boards_v1.1
+LIBS:test
+LIBS:texas
+LIBS:texas-msp
+LIBS:tlv70233
+LIBS:tp4056
+LIBS:transf
+LIBS:Transformer
+LIBS:Transistor
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ts812c
+LIBS:ttl_ieee
+LIBS:usb_a
+LIBS:usb-a-pcb
+LIBS:usb_ax2
+LIBS:User-Submitted
+LIBS:Valve
+LIBS:valves
+LIBS:video
+LIBS:w25q32bv
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:xc3s100etq144
+LIBS:xc3s500evq100
+LIBS:xc6slx9-tqg144
+LIBS:XC9572-TQ100
+LIBS:Xicor
+LIBS:xilinx
+LIBS:xilinx-artix7
+LIBS:xilinx-kintex7
+LIBS:xilinx_spartan3_virtex4_and_5
+LIBS:xilinx-spartan6
+LIBS:xilinx-virtex5
+LIBS:xilinx-virtex6
+LIBS:xilinx-virtex7
+LIBS:zetex
+LIBS:Zilog
+LIBS:рэс-49
+LIBS:тпг-1
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +258,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ESP8266:ESP-12E U3
+L ESP-12E U3
 U 1 1 5935D8C2
 P 5750 5750
 F 0 "U3" H 5750 5650 50  0000 C CNN
@@ -26,7 +269,7 @@ F 3 "" H 5750 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:CH340G U2
+L CH340G U2
 U 1 1 5935DA35
 P 2650 1800
 F 0 "U2" H 2650 2360 60  0000 C CNN
@@ -37,7 +280,7 @@ F 3 "" H 2650 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 P2
+L CONN_01X04 P2
 U 1 1 594A46FC
 P 1650 4650
 F 0 "P2" H 1650 4900 50  0000 C CNN
@@ -48,7 +291,7 @@ F 3 "" H 1650 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR01
+L GND #PWR01
 U 1 1 594A493D
 P 1950 4900
 F 0 "#PWR01" H 1950 4650 50  0001 C CNN
@@ -69,7 +312,7 @@ D+
 Text GLabel 1650 1900 0    39   Input ~ 0
 D-
 $Comp
-L device:Crystal Y1
+L Crystal Y1
 U 1 1 594A4A81
 P 1700 2350
 F 0 "Y1" H 1700 2500 50  0000 C CNN
@@ -80,7 +323,7 @@ F 3 "" H 1700 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C2
+L C C2
 U 1 1 594A4B06
 P 1400 2650
 F 0 "C2" H 1425 2750 50  0000 L CNN
@@ -91,7 +334,7 @@ F 3 "" H 1400 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C4
+L C C4
 U 1 1 594A4B3A
 P 2000 2650
 F 0 "C4" H 2025 2750 50  0000 L CNN
@@ -102,7 +345,7 @@ F 3 "" H 2000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR02
+L GND #PWR02
 U 1 1 594A4C24
 P 1700 2900
 F 0 "#PWR02" H 1700 2650 50  0001 C CNN
@@ -114,7 +357,7 @@ F 3 "" H 1700 2900 50  0001 C CNN
 $EndComp
 NoConn ~ 3350 1500
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY03
+L 5V #SUPPLY03
 U 1 1 594A524E
 P 3450 1250
 F 0 "#SUPPLY03" H 3450 1250 50  0001 L BNN
@@ -125,7 +368,7 @@ F 3 "" H 3450 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR04
+L GND #PWR04
 U 1 1 594A52D8
 P 1150 1600
 F 0 "#PWR04" H 1150 1350 50  0001 C CNN
@@ -136,7 +379,7 @@ F 3 "" H 1150 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C3
+L C C3
 U 1 1 594A533B
 P 1550 1200
 F 0 "C3" H 1575 1300 50  0000 L CNN
@@ -159,7 +402,7 @@ NoConn ~ 3350 1900
 NoConn ~ 3350 2000
 NoConn ~ 3350 2100
 $Comp
-L device:R_Small R1
+L R_Small R1
 U 1 1 594A5CF0
 P 1600 1500
 F 0 "R1" V 1600 1450 50  0000 L CNN
@@ -170,7 +413,7 @@ F 3 "" H 1600 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R2
+L R_Small R2
 U 1 1 594A5D4D
 P 1600 1600
 F 0 "R2" V 1600 1550 50  0000 L CNN
@@ -181,7 +424,7 @@ F 3 "" H 1600 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:S8050 Q1
+L S8050 Q1
 U 1 1 594A67FF
 P 9150 1600
 F 0 "Q1" H 9350 1675 50  0000 L CNN
@@ -192,7 +435,7 @@ F 3 "" H 9150 1600 50  0001 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:S8050 Q2
+L S8050 Q2
 U 1 1 594A69E9
 P 9150 2250
 F 0 "Q2" H 9350 2325 50  0000 L CNN
@@ -203,7 +446,7 @@ F 3 "" H 9150 2250 50  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R17
+L R R17
 U 1 1 594A6D56
 P 9700 1600
 F 0 "R17" V 9780 1600 50  0000 C CNN
@@ -214,7 +457,7 @@ F 3 "" H 9700 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R18
+L R R18
 U 1 1 594A6DA3
 P 9700 2250
 F 0 "R18" V 9780 2250 50  0000 C CNN
@@ -247,7 +490,7 @@ RXD
 Text GLabel 6900 5550 2    39   Input ~ 0
 TXD
 $Comp
-L SLAMP-WiFi-rescue:R R4
+L R R4
 U 1 1 594A94DB
 P 4700 1500
 F 0 "R4" V 4780 1500 50  0000 C CNN
@@ -258,7 +501,7 @@ F 3 "" H 4700 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R5
+L R R5
 U 1 1 594A9627
 P 4700 1700
 F 0 "R5" V 4780 1700 50  0000 C CNN
@@ -269,7 +512,7 @@ F 3 "" H 4700 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R6
+L R R6
 U 1 1 594A9670
 P 4700 1900
 F 0 "R6" V 4780 1900 50  0000 C CNN
@@ -280,7 +523,7 @@ F 3 "" H 4700 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R7
+L R R7
 U 1 1 594A96B4
 P 4700 2100
 F 0 "R7" V 4780 2100 50  0000 C CNN
@@ -291,7 +534,7 @@ F 3 "" H 4700 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R8
+L R R8
 U 1 1 594A96FB
 P 4700 2300
 F 0 "R8" V 4780 2300 50  0000 C CNN
@@ -302,7 +545,7 @@ F 3 "" H 4700 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR05
+L GND #PWR05
 U 1 1 594A98B5
 P 5550 2500
 F 0 "#PWR05" H 5550 2250 50  0001 C CNN
@@ -313,7 +556,7 @@ F 3 "" H 5550 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:3.3V #SUPPLY06
+L 3.3V #SUPPLY06
 U 1 1 594AA318
 P 4300 1350
 F 0 "#SUPPLY06" H 4300 1350 50  0001 L BNN
@@ -332,7 +575,7 @@ EN
 Text GLabel 5350 2000 1    39   Input ~ 0
 uRST
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR07
+L GND #PWR07
 U 1 1 594AAD64
 P 4300 2400
 F 0 "#PWR07" H 4300 2150 50  0001 C CNN
@@ -345,7 +588,7 @@ $EndComp
 Text GLabel 5100 2300 2    39   Input ~ 0
 GPIO15
 $Comp
-L SLAMP-WiFi-rescue:C C10
+L C C10
 U 1 1 594AAF45
 P 5550 2300
 F 0 "C10" H 5575 2400 50  0000 L CNN
@@ -356,7 +599,7 @@ F 3 "" H 5550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R14
+L R R14
 U 1 1 594ABAC1
 P 8550 5450
 F 0 "R14" V 8630 5450 50  0000 C CNN
@@ -367,7 +610,7 @@ F 3 "" H 8550 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR08
+L GND #PWR08
 U 1 1 594ABB9E
 P 8550 5700
 F 0 "#PWR08" H 8550 5450 50  0001 C CNN
@@ -378,7 +621,7 @@ F 3 "" H 8550 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R13
+L R R13
 U 1 1 594ABBE5
 P 8550 5000
 F 0 "R13" V 8630 5000 50  0000 C CNN
@@ -393,7 +636,7 @@ ADC
 Text GLabel 8550 4750 1    39   Input ~ 0
 ANALOG
 $Comp
-L SLAMP-WiFi-rescue:MIC5219-3.3BM5 U1
+L MIC5219-3.3BM5 U1
 U 1 1 594ACA8C
 P 2100 6500
 F 0 "U1" H 1850 6700 50  0000 L CNN
@@ -404,7 +647,7 @@ F 3 "" H 2100 6500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C5
+L C C5
 U 1 1 594ACC91
 P 2600 6800
 F 0 "C5" H 2625 6900 50  0000 L CNN
@@ -415,7 +658,7 @@ F 3 "" H 2600 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C7
+L C C7
 U 1 1 594ACF73
 P 2900 6800
 F 0 "C7" H 2925 6900 50  0000 L CNN
@@ -426,7 +669,7 @@ F 3 "" H 2900 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C8
+L C C8
 U 1 1 594ACFD3
 P 3200 6800
 F 0 "C8" H 3225 6900 50  0000 L CNN
@@ -437,7 +680,7 @@ F 3 "" H 3200 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:3.3V #SUPPLY09
+L 3.3V #SUPPLY09
 U 1 1 594AD2F5
 P 3300 6300
 F 0 "#SUPPLY09" H 3300 6300 50  0001 L BNN
@@ -448,7 +691,7 @@ F 3 "" H 3300 6300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR010
+L GND #PWR010
 U 1 1 594AD763
 P 2600 7050
 F 0 "#PWR010" H 2600 6800 50  0001 C CNN
@@ -459,7 +702,7 @@ F 3 "" H 2600 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR011
+L GND #PWR011
 U 1 1 594AD7B9
 P 2900 7050
 F 0 "#PWR011" H 2900 6800 50  0001 C CNN
@@ -470,7 +713,7 @@ F 3 "" H 2900 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR012
+L GND #PWR012
 U 1 1 594AD80F
 P 3200 7050
 F 0 "#PWR012" H 3200 6800 50  0001 C CNN
@@ -481,7 +724,7 @@ F 3 "" H 3200 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR013
+L GND #PWR013
 U 1 1 594ADAB3
 P 2100 7050
 F 0 "#PWR013" H 2100 6800 50  0001 C CNN
@@ -492,7 +735,7 @@ F 3 "" H 2100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY014
+L 5V #SUPPLY014
 U 1 1 594AE516
 P 1250 6250
 F 0 "#SUPPLY014" H 1250 6250 50  0001 L BNN
@@ -503,7 +746,7 @@ F 3 "" H 1250 6250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C1
+L C C1
 U 1 1 594B08BB
 P 1250 6800
 F 0 "C1" H 1275 6900 50  0000 L CNN
@@ -514,7 +757,7 @@ F 3 "" H 1250 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR015
+L GND #PWR015
 U 1 1 594B104D
 P 1250 7050
 F 0 "#PWR015" H 1250 6800 50  0001 C CNN
@@ -525,7 +768,7 @@ F 3 "" H 1250 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:3.3V #SUPPLY016
+L 3.3V #SUPPLY016
 U 1 1 594B14C0
 P 9600 4050
 F 0 "#SUPPLY016" H 9600 4050 50  0001 L BNN
@@ -536,7 +779,7 @@ F 3 "" H 9600 4050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R15
+L R R15
 U 1 1 594B154D
 P 9600 4300
 F 0 "R15" V 9680 4300 50  0000 C CNN
@@ -547,7 +790,7 @@ F 3 "" H 9600 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:LED D1
+L LED D1
 U 1 1 594B1702
 P 9600 4650
 F 0 "D1" H 9600 4750 50  0000 C CNN
@@ -560,7 +803,7 @@ $EndComp
 Text GLabel 9450 4950 0    39   Input ~ 0
 GPIO16
 $Comp
-L SLAMP-WiFi-rescue:R R16
+L R R16
 U 1 1 594B2E1E
 P 9600 5150
 F 0 "R16" V 9680 5150 50  0000 C CNN
@@ -571,7 +814,7 @@ F 3 "" H 9600 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R19
+L R R19
 U 1 1 594B306A
 P 9950 5150
 F 0 "R19" V 10030 5150 50  0000 C CNN
@@ -582,7 +825,7 @@ F 3 "" H 9950 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR017
+L GND #PWR017
 U 1 1 594B3709
 P 9600 5950
 F 0 "#PWR017" H 9600 5700 50  0001 C CNN
@@ -595,7 +838,7 @@ $EndComp
 Text GLabel 10050 4950 2    39   Input ~ 0
 uRST
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR018
+L GND #PWR018
 U 1 1 594B3E39
 P 10750 5600
 F 0 "#PWR018" H 10750 5350 50  0001 C CNN
@@ -606,7 +849,7 @@ F 3 "" H 10750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:R R20
+L R R20
 U 1 1 594B4A08
 P 10750 4850
 F 0 "R20" V 10830 4850 50  0000 C CNN
@@ -629,7 +872,7 @@ FACE4
 Text GLabel 6900 6050 2    39   Input ~ 0
 GPIO15
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR019
+L GND #PWR019
 U 1 1 594B63BA
 P 6700 6200
 F 0 "#PWR019" H 6700 5950 50  0001 C CNN
@@ -640,7 +883,7 @@ F 3 "" H 6700 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP C9
+L CP C9
 U 1 1 594B6B47
 P 4200 6400
 F 0 "C9" H 4225 6500 50  0000 L CNN
@@ -651,7 +894,7 @@ F 3 "" H 4200 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:3.3V #SUPPLY020
+L 3.3V #SUPPLY020
 U 1 1 594B6EF2
 P 4200 5300
 F 0 "#SUPPLY020" H 4200 5300 50  0001 L BNN
@@ -662,7 +905,7 @@ F 3 "" H 4200 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR021
+L GND #PWR021
 U 1 1 594B73C5
 P 4200 6600
 F 0 "#PWR021" H 4200 6350 50  0001 C CNN
@@ -673,7 +916,7 @@ F 3 "" H 4200 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P1
+L CONN_01X02 P1
 U 1 1 594B8FE0
 P 1650 3650
 F 0 "P1" H 1650 3800 50  0000 C CNN
@@ -684,7 +927,7 @@ F 3 "" H 1650 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR022
+L GND #PWR022
 U 1 1 594BA435
 P 1950 3800
 F 0 "#PWR022" H 1950 3550 50  0001 C CNN
@@ -695,7 +938,7 @@ F 3 "" H 1950 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY023
+L 5V #SUPPLY023
 U 1 1 594BAFAF
 P 1950 3550
 F 0 "#SUPPLY023" H 1950 3550 50  0001 L BNN
@@ -706,7 +949,7 @@ F 3 "" H 1950 3550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X03 P6
+L CONN_01X03 P6
 U 1 1 594BC146
 P 7850 3200
 F 0 "P6" H 7850 3400 50  0000 C CNN
@@ -717,7 +960,7 @@ F 3 "" H 7850 3200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X03 P7
+L CONN_01X03 P7
 U 1 1 594BC2EF
 P 8600 3200
 F 0 "P7" H 8600 3400 50  0000 C CNN
@@ -728,7 +971,7 @@ F 3 "" H 8600 3200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X03 P8
+L CONN_01X03 P8
 U 1 1 594BC384
 P 9350 3200
 F 0 "P8" H 9350 3400 50  0000 C CNN
@@ -739,7 +982,7 @@ F 3 "" H 9350 3200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X03 P9
+L CONN_01X03 P9
 U 1 1 594BC418
 P 10100 3200
 F 0 "P9" H 10100 3400 50  0000 C CNN
@@ -750,7 +993,7 @@ F 3 "" H 10100 3200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X03 P10
+L CONN_01X03 P10
 U 1 1 594BC4B5
 P 10850 3200
 F 0 "P10" H 10850 3400 50  0000 C CNN
@@ -761,7 +1004,7 @@ F 3 "" H 10850 3200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR024
+L GND #PWR024
 U 1 1 594BD53D
 P 7550 3400
 F 0 "#PWR024" H 7550 3150 50  0001 C CNN
@@ -772,7 +1015,7 @@ F 3 "" H 7550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR025
+L GND #PWR025
 U 1 1 594BDF39
 P 8300 3400
 F 0 "#PWR025" H 8300 3150 50  0001 C CNN
@@ -783,7 +1026,7 @@ F 3 "" H 8300 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR026
+L GND #PWR026
 U 1 1 594BE077
 P 9050 3400
 F 0 "#PWR026" H 9050 3150 50  0001 C CNN
@@ -794,7 +1037,7 @@ F 3 "" H 9050 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR027
+L GND #PWR027
 U 1 1 594BE1B7
 P 9800 3400
 F 0 "#PWR027" H 9800 3150 50  0001 C CNN
@@ -805,7 +1048,7 @@ F 3 "" H 9800 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR028
+L GND #PWR028
 U 1 1 594BE3E9
 P 10550 3400
 F 0 "#PWR028" H 10550 3150 50  0001 C CNN
@@ -816,7 +1059,7 @@ F 3 "" H 10550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY029
+L 5V #SUPPLY029
 U 1 1 594C063A
 P 7550 3000
 F 0 "#SUPPLY029" H 7550 3000 50  0001 L BNN
@@ -827,7 +1070,7 @@ F 3 "" H 7550 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY030
+L 5V #SUPPLY030
 U 1 1 594C0A55
 P 8300 3000
 F 0 "#SUPPLY030" H 8300 3000 50  0001 L BNN
@@ -838,7 +1081,7 @@ F 3 "" H 8300 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY031
+L 5V #SUPPLY031
 U 1 1 594C0AD8
 P 9050 3000
 F 0 "#SUPPLY031" H 9050 3000 50  0001 L BNN
@@ -849,7 +1092,7 @@ F 3 "" H 9050 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY032
+L 5V #SUPPLY032
 U 1 1 594C0F93
 P 9800 3000
 F 0 "#SUPPLY032" H 9800 3000 50  0001 L BNN
@@ -860,7 +1103,7 @@ F 3 "" H 9800 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY033
+L 5V #SUPPLY033
 U 1 1 594C1016
 P 10550 3000
 F 0 "#SUPPLY033" H 10550 3000 50  0001 L BNN
@@ -881,7 +1124,7 @@ FACE4
 Text GLabel 10500 3100 0    39   Input ~ 0
 FACE5
 $Comp
-L device:CP C6
+L CP C6
 U 1 1 594C5693
 P 2400 3650
 F 0 "C6" H 2425 3750 50  0000 L CNN
@@ -892,7 +1135,7 @@ F 3 "" H 2400 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY034
+L 5V #SUPPLY034
 U 1 1 594C598B
 P 2400 3450
 F 0 "#SUPPLY034" H 2400 3450 50  0001 L BNN
@@ -903,7 +1146,7 @@ F 3 "" H 2400 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR035
+L GND #PWR035
 U 1 1 594C5A8C
 P 2400 3850
 F 0 "#PWR035" H 2400 3600 50  0001 C CNN
@@ -914,7 +1157,7 @@ F 3 "" H 2400 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R9
+L R_Small R9
 U 1 1 594C7296
 P 6850 5650
 F 0 "R9" V 6800 5450 50  0000 L CNN
@@ -925,7 +1168,7 @@ F 3 "" H 6850 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R10
+L R_Small R10
 U 1 1 594C81D0
 P 6850 5750
 F 0 "R10" V 6800 5550 50  0000 L CNN
@@ -936,7 +1179,7 @@ F 3 "" H 6850 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R11
+L R_Small R11
 U 1 1 594C8517
 P 6850 5850
 F 0 "R11" V 6800 5650 50  0000 L CNN
@@ -947,7 +1190,7 @@ F 3 "" H 6850 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R12
+L R_Small R12
 U 1 1 594C8901
 P 6850 5950
 F 0 "R12" V 6800 5750 50  0000 L CNN
@@ -958,7 +1201,7 @@ F 3 "" H 6850 5950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R3
+L R_Small R3
 U 1 1 594C9202
 P 4700 5850
 F 0 "R3" V 4650 6000 50  0000 L CNN
@@ -969,7 +1212,7 @@ F 3 "" H 4700 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:CONN_01X01 P3
+L CONN_01X01 P3
 U 1 1 594C9E57
 P 1650 5200
 F 0 "P3" H 1650 5300 50  0000 C CNN
@@ -982,7 +1225,7 @@ $EndComp
 Text GLabel 1950 5200 2    39   Input ~ 0
 VUSB
 $Comp
-L conn:CONN_01X03 P5
+L CONN_01X03 P5
 U 1 1 594CB735
 P 6950 3200
 F 0 "P5" H 6950 3400 50  0000 C CNN
@@ -993,7 +1236,7 @@ F 3 "" H 6950 3200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR036
+L GND #PWR036
 U 1 1 594CB9D4
 P 6650 3400
 F 0 "#PWR036" H 6650 3150 50  0001 C CNN
@@ -1004,7 +1247,7 @@ F 3 "" H 6650 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY037
+L 5V #SUPPLY037
 U 1 1 594CC1B4
 P 6650 3000
 F 0 "#SUPPLY037" H 6650 3000 50  0001 L BNN
@@ -1017,7 +1260,7 @@ $EndComp
 Text GLabel 6600 3100 0    39   Input ~ 0
 ANALOG
 $Comp
-L conn:CONN_01X03 P4
+L CONN_01X03 P4
 U 1 1 594CDB0E
 P 6050 3200
 F 0 "P4" H 6050 3400 50  0000 C CNN
@@ -1028,7 +1271,7 @@ F 3 "" H 6050 3200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR038
+L GND #PWR038
 U 1 1 594CDCB3
 P 5750 3400
 F 0 "#PWR038" H 5750 3150 50  0001 C CNN
@@ -1039,7 +1282,7 @@ F 3 "" H 5750 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY039
+L 5V #SUPPLY039
 U 1 1 594CDE15
 P 5750 3000
 F 0 "#SUPPLY039" H 5750 3000 50  0001 L BNN
@@ -1052,7 +1295,7 @@ $EndComp
 Text GLabel 5700 3100 0    39   Input ~ 0
 EXTRA
 $Comp
-L power:PWR_FLAG #FLG040
+L PWR_FLAG #FLG040
 U 1 1 594D1F0C
 P 6500 7100
 F 0 "#FLG040" H 6500 7175 50  0001 C CNN
@@ -1063,7 +1306,7 @@ F 3 "" H 6500 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG041
+L PWR_FLAG #FLG041
 U 1 1 594D1FB1
 P 6150 7400
 F 0 "#FLG041" H 6150 7475 50  0001 C CNN
@@ -1074,7 +1317,7 @@ F 3 "" H 6150 7400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG042
+L PWR_FLAG #FLG042
 U 1 1 594D204F
 P 5700 7400
 F 0 "#FLG042" H 5700 7475 50  0001 C CNN
@@ -1085,7 +1328,7 @@ F 3 "" H 5700 7400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR043
+L GND #PWR043
 U 1 1 594D20ED
 P 6500 7400
 F 0 "#PWR043" H 6500 7150 50  0001 C CNN
@@ -1096,7 +1339,7 @@ F 3 "" H 6500 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:3.3V #SUPPLY044
+L 3.3V #SUPPLY044
 U 1 1 594D23D7
 P 6150 7100
 F 0 "#SUPPLY044" H 6150 7100 50  0001 L BNN
@@ -1107,7 +1350,7 @@ F 3 "" H 6150 7100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY045
+L 5V #SUPPLY045
 U 1 1 594D2754
 P 5700 7100
 F 0 "#SUPPLY045" H 5700 7100 50  0001 L BNN
@@ -1125,7 +1368,7 @@ NoConn ~ 5900 6650
 NoConn ~ 6000 6650
 NoConn ~ 4850 6050
 $Comp
-L Switch:SW_Push SW2
+L SW_Push SW2
 U 1 1 595789D4
 P 10750 5300
 F 0 "SW2" H 10800 5400 50  0000 L CNN
@@ -1136,7 +1379,7 @@ F 3 "" H 10750 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW1
+L SW_Push SW1
 U 1 1 59578DBF
 P 9600 5700
 F 0 "SW1" H 9650 5800 50  0000 L CNN
@@ -1151,7 +1394,7 @@ GPIO0
 Text GLabel 9300 1300 2    60   Input ~ 0
 uRST
 $Comp
-L SLAMP-WiFi-rescue:TTP223 U4
+L TTP223 U4
 U 1 1 5AA58432
 P 3850 3700
 F 0 "U4" H 3850 3400 60  0000 C CNN
@@ -1162,7 +1405,7 @@ F 3 "" H 3800 3700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C11
+L C C11
 U 1 1 5AA58C8F
 P 3400 4050
 F 0 "C11" H 3425 4150 50  0000 L CNN
@@ -1173,7 +1416,7 @@ F 3 "" H 3400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR046
+L GND #PWR046
 U 1 1 5AA599B8
 P 3400 4300
 F 0 "#PWR046" H 3400 4050 50  0001 C CNN
@@ -1184,7 +1427,7 @@ F 3 "" H 3400 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Jumper_NO_Small JP2
+L Jumper_NO_Small JP2
 U 1 1 5AA5A77D
 P 4550 3850
 F 0 "JP2" H 4550 3930 50  0000 C CNN
@@ -1195,7 +1438,7 @@ F 3 "" H 4550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Jumper_NO_Small JP1
+L Jumper_NO_Small JP1
 U 1 1 5AA5A8B2
 P 4550 3550
 F 0 "JP1" H 4550 3630 50  0000 C CNN
@@ -1206,7 +1449,7 @@ F 3 "" H 4550 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C12
+L C C12
 U 1 1 5AA5BBE1
 P 4950 3750
 F 0 "C12" H 4975 3850 50  0000 L CNN
@@ -1217,7 +1460,7 @@ F 3 "" H 4950 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C13
+L C C13
 U 1 1 5AA5BD87
 P 5200 3750
 F 0 "C13" H 5225 3850 50  0000 L CNN
@@ -1228,7 +1471,7 @@ F 3 "" H 5200 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR047
+L GND #PWR047
 U 1 1 5AA5BFA3
 P 4950 4300
 F 0 "#PWR047" H 4950 4050 50  0001 C CNN
@@ -1239,7 +1482,7 @@ F 3 "" H 4950 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR048
+L GND #PWR048
 U 1 1 5AA5C056
 P 5200 4300
 F 0 "#PWR048" H 5200 4050 50  0001 C CNN
@@ -1250,7 +1493,7 @@ F 3 "" H 5200 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY049
+L 5V #SUPPLY049
 U 1 1 5AA5C60B
 P 5200 3500
 F 0 "#SUPPLY049" H 5200 3500 50  0001 L BNN
@@ -1277,17 +1520,17 @@ Wire Wire Line
 Wire Wire Line
 	1950 1800 1650 1800
 Wire Wire Line
-	1550 2350 1500 2350
+	1550 2350 1400 2350
 Wire Wire Line
 	1400 2350 1400 2500
 Wire Wire Line
-	1850 2350 1900 2350
+	1850 2350 2000 2350
 Wire Wire Line
 	2000 2350 2000 2500
 Wire Wire Line
 	1700 2900 1700 2850
 Wire Wire Line
-	1400 2850 1700 2850
+	1400 2850 2000 2850
 Wire Wire Line
 	1400 2850 1400 2800
 Wire Wire Line
@@ -1308,7 +1551,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 1400 3450 1250
 Wire Wire Line
-	1950 1400 1550 1400
+	1950 1400 1150 1400
 Wire Wire Line
 	1150 1400 1150 1600
 Wire Wire Line
@@ -1335,9 +1578,9 @@ Wire Wire Line
 Wire Wire Line
 	9350 1600 9550 1600
 Wire Wire Line
-	9850 1600 9950 1600
+	9850 1600 10100 1600
 Wire Wire Line
-	9850 2250 9950 2250
+	9850 2250 10100 2250
 Wire Wire Line
 	9350 2250 9550 2250
 Wire Wire Line
@@ -1375,7 +1618,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 1000 1750 1700
 Wire Wire Line
-	4300 1350 4300 1500
+	4300 1350 4300 2100
 Wire Wire Line
 	4300 2100 4550 2100
 Wire Wire Line
@@ -1394,7 +1637,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 1900 5100 1900
 Wire Wire Line
-	4850 2100 5350 2100
+	4850 2100 5550 2100
 Wire Wire Line
 	4300 2400 4300 2300
 Wire Wire Line
@@ -1409,7 +1652,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2450 5550 2500
 Wire Wire Line
-	8550 5150 8550 5200
+	8550 5150 8550 5300
 Wire Wire Line
 	8550 5600 8550 5700
 Wire Wire Line
@@ -1440,9 +1683,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 6600 1700 6600
 Wire Wire Line
-	1250 6400 1650 6400
+	1250 6400 1700 6400
 Wire Wire Line
-	1250 6250 1250 6400
+	1250 6250 1250 6650
 Connection ~ 1250 6400
 Wire Wire Line
 	1650 6600 1650 6400
@@ -1454,12 +1697,12 @@ Wire Wire Line
 Wire Wire Line
 	9600 4450 9600 4500
 Wire Wire Line
-	9600 4800 9600 4950
+	9600 4800 9600 5000
 Wire Wire Line
 	9600 4950 9450 4950
 Connection ~ 9600 4950
 Wire Wire Line
-	9600 5300 9600 5400
+	9600 5300 9600 5500
 Wire Wire Line
 	9600 5400 9950 5400
 Wire Wire Line
@@ -1482,7 +1725,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 6150 6700 6200
 Wire Wire Line
-	4200 5300 4200 6150
+	4200 5300 4200 6250
 Wire Wire Line
 	4200 6150 4850 6150
 Connection ~ 4200 6150
@@ -1559,7 +1802,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 5750 7050 5750
 Wire Wire Line
-	6650 5850 6700 5850
+	6650 5850 6750 5850
 Wire Wire Line
 	6950 5850 7050 5850
 Wire Wire Line
@@ -1601,7 +1844,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 7400 6150 7100
 Wire Wire Line
-	2500 6400 2900 6400
+	2500 6400 3300 6400
 Wire Wire Line
 	6700 5850 6700 5300
 Connection ~ 6700 5850
@@ -1612,7 +1855,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 3900 3400 3850
 Wire Wire Line
-	3150 3850 3400 3850
+	3150 3850 3450 3850
 Wire Wire Line
 	3400 4200 3400 4300
 Connection ~ 3400 3850
@@ -1623,9 +1866,9 @@ Wire Wire Line
 Wire Wire Line
 	4250 3700 4750 3700
 Wire Wire Line
-	4750 3550 4750 3700
+	4750 3550 4750 3850
 Wire Wire Line
-	4650 3550 4750 3550
+	4650 3550 5200 3550
 Wire Wire Line
 	4750 3850 4650 3850
 Connection ~ 4750 3700
@@ -1637,11 +1880,11 @@ Wire Wire Line
 	4950 3550 4950 3600
 Connection ~ 4750 3550
 Wire Wire Line
-	5200 3500 5200 3550
+	5200 3500 5200 3600
 Connection ~ 4950 3550
 Connection ~ 5200 3550
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR050
+L GND #PWR050
 U 1 1 5AA5CE53
 P 3350 3700
 F 0 "#PWR050" H 3350 3450 50  0001 C CNN
@@ -1656,7 +1899,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 3550 3250 3550
 $Comp
-L conn:CONN_01X01 P11
+L CONN_01X01 P11
 U 1 1 5AA5E5F8
 P 3150 4050
 F 0 "P11" H 3150 4150 50  0000 C CNN
@@ -1669,7 +1912,7 @@ $EndComp
 Text GLabel 3250 3550 0    39   Input ~ 0
 GPIO15
 $Comp
-L SLAMP-WiFi-rescue:TTP223 U5
+L TTP223 U5
 U 1 1 5AA64DDC
 P 6750 1750
 F 0 "U5" H 6750 1450 60  0000 C CNN
@@ -1680,7 +1923,7 @@ F 3 "" H 6700 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C14
+L C C14
 U 1 1 5AA64DE2
 P 6300 2100
 F 0 "C14" H 6325 2200 50  0000 L CNN
@@ -1691,7 +1934,7 @@ F 3 "" H 6300 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR052
+L GND #PWR052
 U 1 1 5AA64DE8
 P 6300 2350
 F 0 "#PWR052" H 6300 2100 50  0001 C CNN
@@ -1702,7 +1945,7 @@ F 3 "" H 6300 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Jumper_NO_Small JP4
+L Jumper_NO_Small JP4
 U 1 1 5AA64DEE
 P 7450 1900
 F 0 "JP4" H 7450 1980 50  0000 C CNN
@@ -1713,7 +1956,7 @@ F 3 "" H 7450 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Jumper_NO_Small JP3
+L Jumper_NO_Small JP3
 U 1 1 5AA64DF4
 P 7450 1600
 F 0 "JP3" H 7450 1680 50  0000 C CNN
@@ -1724,7 +1967,7 @@ F 3 "" H 7450 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C15
+L C C15
 U 1 1 5AA64DFA
 P 7850 1800
 F 0 "C15" H 7875 1900 50  0000 L CNN
@@ -1735,7 +1978,7 @@ F 3 "" H 7850 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SLAMP-WiFi-rescue:C C16
+L C C16
 U 1 1 5AA64E00
 P 8100 1800
 F 0 "C16" H 8125 1900 50  0000 L CNN
@@ -1746,7 +1989,7 @@ F 3 "" H 8100 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR053
+L GND #PWR053
 U 1 1 5AA64E06
 P 7850 2350
 F 0 "#PWR053" H 7850 2100 50  0001 C CNN
@@ -1757,7 +2000,7 @@ F 3 "" H 7850 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR054
+L GND #PWR054
 U 1 1 5AA64E0C
 P 8100 2350
 F 0 "#PWR054" H 8100 2100 50  0001 C CNN
@@ -1768,7 +2011,7 @@ F 3 "" H 8100 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Aesthetics:5V #SUPPLY055
+L 5V #SUPPLY055
 U 1 1 5AA64E12
 P 8100 1550
 F 0 "#SUPPLY055" H 8100 1550 50  0001 L BNN
@@ -1781,7 +2024,7 @@ $EndComp
 Wire Wire Line
 	6300 1950 6300 1900
 Wire Wire Line
-	6050 1900 6300 1900
+	6050 1900 6350 1900
 Wire Wire Line
 	6300 2250 6300 2350
 Connection ~ 6300 1900
@@ -1792,9 +2035,9 @@ Wire Wire Line
 Wire Wire Line
 	7150 1750 7650 1750
 Wire Wire Line
-	7650 1600 7650 1750
+	7650 1600 7650 1900
 Wire Wire Line
-	7550 1600 7650 1600
+	7550 1600 8100 1600
 Wire Wire Line
 	7650 1900 7550 1900
 Connection ~ 7650 1750
@@ -1806,11 +2049,11 @@ Wire Wire Line
 	7850 1600 7850 1650
 Connection ~ 7650 1600
 Wire Wire Line
-	8100 1550 8100 1600
+	8100 1550 8100 1650
 Connection ~ 7850 1600
 Connection ~ 8100 1600
 $Comp
-L CH340G_D-SUN-V3.0-cache:GND #PWR056
+L GND #PWR056
 U 1 1 5AA64E2A
 P 6250 1750
 F 0 "#PWR056" H 6250 1500 50  0001 C CNN
@@ -1825,7 +2068,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 1600 6150 1600
 $Comp
-L conn:CONN_01X01 P12
+L CONN_01X01 P12
 U 1 1 5AA64E38
 P 6050 2100
 F 0 "P12" H 6050 2200 50  0000 C CNN
@@ -1837,62 +2080,4 @@ F 3 "" H 6050 2100 50  0001 C CNN
 $EndComp
 Text GLabel 6150 1600 0    39   Input ~ 0
 GPIO16
-Wire Wire Line
-	1700 2850 2000 2850
-Wire Wire Line
-	1500 2350 1400 2350
-Wire Wire Line
-	1900 2350 2000 2350
-Wire Wire Line
-	1550 1400 1150 1400
-Wire Wire Line
-	9950 1600 10100 1600
-Wire Wire Line
-	9950 2250 10100 2250
-Wire Wire Line
-	4300 1900 4300 2100
-Wire Wire Line
-	4300 1700 4300 1900
-Wire Wire Line
-	4300 1500 4300 1700
-Wire Wire Line
-	5350 2100 5550 2100
-Wire Wire Line
-	8550 5200 8550 5300
-Wire Wire Line
-	3200 6400 3300 6400
-Wire Wire Line
-	2900 6400 3200 6400
-Wire Wire Line
-	1250 6400 1250 6650
-Wire Wire Line
-	1650 6400 1700 6400
-Wire Wire Line
-	9600 4950 9600 5000
-Wire Wire Line
-	9600 5400 9600 5500
-Wire Wire Line
-	4200 6150 4200 6250
-Wire Wire Line
-	6700 5850 6750 5850
-Wire Wire Line
-	3400 3850 3450 3850
-Wire Wire Line
-	4750 3700 4750 3850
-Wire Wire Line
-	4750 3550 4950 3550
-Wire Wire Line
-	4950 3550 5200 3550
-Wire Wire Line
-	5200 3550 5200 3600
-Wire Wire Line
-	6300 1900 6350 1900
-Wire Wire Line
-	7650 1750 7650 1900
-Wire Wire Line
-	7650 1600 7850 1600
-Wire Wire Line
-	7850 1600 8100 1600
-Wire Wire Line
-	8100 1600 8100 1650
 $EndSCHEMATC
